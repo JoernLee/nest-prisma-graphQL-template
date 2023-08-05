@@ -1,1 +1,6 @@
-export class CreateUserDto {}
+export class CreateUserDto {
+  id: number;
+  email: string;
+  name?: string;
+  posts?: any[];
+}

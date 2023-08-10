@@ -1,6 +1,4 @@
 export class CreateUserDto {
-  id: number;
-  email: string;
+  email?: string;
   name?: string;
-  posts?: any[];
 }
